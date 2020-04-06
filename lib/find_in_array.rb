@@ -1,3 +1,9 @@
+
+
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  while array < array.length |index| do
+    puts array[index]
+  else
+    puts NIL
+  end
 end
